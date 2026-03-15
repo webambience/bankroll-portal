@@ -30,27 +30,34 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({ isOpen, onClose })
     
     const payload = {
       ...formData,
-      savedDesigns: savedItems.map(item => item.item.title)
+      savedDesigns: savedItems.map(item => `${item.item.title} (${item.item.apparel_type})`).join(', ')
     };
 
     try {
-      // Simulate API Call storing to DB and triggering notification webhook
-      console.log('--- NEW INQUIRY SUBMITTED TO DB ---');
-      console.log(JSON.stringify(payload, null, 2));
-      console.log('--- NOTIFICATION TRIGGERED TO CLICKUP ---');
-      
-      await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate network latency
-      setSubmitState('success');
-      clearItems();
-      
-      // Reset after 3 seconds and close
-      setTimeout(() => {
-        setSubmitState('idle');
-        onClose();
-        setFormData({
-          organization: '', contactName: '', email: '', phone: '', quantity: '', customizationDetails: ''
-        });
-      }, 3000);
+      const response = await fetch('https://formspree.io/f/mvzwbrrp', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (response.ok) {
+        setSubmitState('success');
+        clearItems();
+        
+        // Reset after 3 seconds and close
+        setTimeout(() => {
+          setSubmitState('idle');
+          onClose();
+          setFormData({
+            organization: '', contactName: '', email: '', phone: '', quantity: '', customizationDetails: ''
+          });
+        }, 3000);
+      } else {
+        setSubmitState('error');
+      }
 
     } catch (error) {
       setSubmitState('error');
