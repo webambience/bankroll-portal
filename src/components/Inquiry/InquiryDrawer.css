@@ -13,10 +13,12 @@
 .inquiry-drawer {
   position: fixed;
   top: 0;
+  bottom: 0;
   right: -100%;
   width: 100%;
   max-width: 650px; /* Made slightly wider */
-  height: 100vh;
+  height: 100%;
+  max-height: 100dvh; /* Modern mobile viewport height */
   background-color: var(--color-bg-light); /* Changed to light theme */
   color: var(--color-text-dark); /* Changed to dark text */
   z-index: 1001;
