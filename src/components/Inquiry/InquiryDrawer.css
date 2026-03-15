@@ -1,0 +1,202 @@
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.inquiry-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 650px; /* Made slightly wider */
+  height: 100vh;
+  background-color: var(--color-bg-light); /* Changed to light theme */
+  color: var(--color-text-dark); /* Changed to dark text */
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid var(--color-border-light);
+}
+
+.inquiry-drawer.open {
+  right: 0;
+}
+
+.drawer-header {
+  padding: var(--spacing-lg) var(--spacing-xl);
+  border-bottom: 1px solid var(--color-border-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg-light-surface);
+}
+
+.drawer-header h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.close-btn {
+  color: var(--color-text-dark-secondary);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.close-btn:hover {
+  color: var(--color-text-dark);
+  transform: rotate(90deg);
+}
+
+.drawer-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-xl);
+}
+
+.inquiry-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.saved-items-section h3, .form-section h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-dark);
+  border-bottom: 2px solid var(--color-border-light);
+  padding-bottom: var(--spacing-sm);
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  background-color: var(--color-bg-light-surface);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border-light);
+}
+
+.cart-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background-color: #111;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.cart-item-type {
+  font-size: 0.8rem;
+  color: var(--color-text-dark-secondary);
+}
+
+.remove-btn {
+  color: var(--color-text-secondary);
+  padding: var(--spacing-sm);
+  transition: color var(--transition-fast);
+}
+
+.remove-btn:hover {
+  color: #ff3b3b;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.form-row {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-text-dark-secondary);
+}
+
+.form-group input, .form-group textarea {
+  background-color: var(--color-bg-light-surface);
+  border: 1px solid var(--color-border-light);
+  color: var(--color-text-dark);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: #111;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: var(--spacing-md);
+}
+
+.empty-cart-state, .success-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+  gap: var(--spacing-md);
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-success);
+  color: var(--color-bg-base);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.success-state h3 {
+  font-size: 1.5rem;
+  color: var(--color-success);
+}

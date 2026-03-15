@@ -1,0 +1,68 @@
+.floating-cta-container {
+  position: fixed;
+  bottom: var(--spacing-xl);
+  right: var(--spacing-xl);
+  z-index: 99;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.floating-cta-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  box-shadow: var(--shadow-lg);
+}
+
+.floating-cta-btn:hover {
+  transform: translateY(-4px);
+}
+
+.cta-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 18px;
+  min-width: 18px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+}
+
+.cta-text {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* On mobile, center it at the bottom */
+@media (max-width: 768px) {
+  .floating-cta-container {
+    bottom: var(--spacing-md);
+    right: 50%;
+    transform: translateX(50%);
+    width: 90%;
+  }
+
+  .floating-cta-btn {
+    width: 100%;
+    justify-content: center;
+    padding: var(--spacing-md);
+  }
+}

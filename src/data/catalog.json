@@ -1,0 +1,512 @@
+[
+  {
+    "id": "1",
+    "title": "Slash",
+    "description": "Sharp contrast. Controlled aggression. This is the jersey for players who don’t need noise to make a statement. Lightweight performance fabric. Athletic cut. Pro-collar with quarter zip. Built for long sets, hot lights, and tournament pressure.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Orange-Crush-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Orange-Crush-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/the-slash/"
+  },
+  {
+    "id": "2",
+    "title": "Side Spin",
+    "description": "A pro‑style 1/4‑zip jersey with a bold cascade of neon dots sweeping down the left side on a deep black base for a fast, high‑energy look. Lightweight, moisture‑wicking performance fabric and a streamlined stand collar keep it breathable, flexible, and comfortable.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/side-spin-front-1.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/side-spin-front-2.webp",
+    "source_url": "https://bankrollculture.com/catalog/side-spin/"
+  },
+  {
+    "id": "3",
+    "title": "Legacy",
+    "description": "This Pro-Collar 1/4 Zip has a distinct tan and espresso plaid with a classic luxury look. Crafted with Bank Roll's proprietary premium 4-way stretch Flex Tech fabric. High-performance playability with a sophisticated look for on or off the table.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/legacy-pro-collar-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/legacy-pro-collar-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/legacy/"
+  },
+  {
+    "id": "4",
+    "title": "The Edge",
+    "description": "Available in Orange, Pink or plenty of other colors. The Edge delivers a bold, angular design that brings energy and motion to a clean quarter-zip silhouette. Finished with pro-grade performance fabric that’s breathable, fast-drying, and flexible enough for all-day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Grafitti-Orange-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/01/Orange-Edge-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/the-edge/"
+  },
+  {
+    "id": "5",
+    "title": "Grey 1/2 Zip Midlayer",
+    "description": "Solid-grey 1/2-zip performance midlayer built from a lightweight, breathable knit that balances warmth and ventilation, with stretch and moisture-wicking comfort designed for all-day wear.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Grey-Traditional-1_4-Zip-Long-Sleeve.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Trad-QZ-LS-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/grey-1-2-zip-midlayer/"
+  },
+  {
+    "id": "6",
+    "title": "Low Burn",
+    "description": "Black performance polo with a subtle cracked pattern and ember-like flecks, featuring a traditional polo collar and clean 1/4-zip design. Premium performance fabric delivers stretch, breathability, and moisture-wicking comfort.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Low-Burn-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Low-Burn-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/low-burn/"
+  },
+  {
+    "id": "7",
+    "title": "Fade Polo",
+    "description": "A traditional polo with a subtle faded gradient finish, designed to keep a clean, understated look. Made from lightweight performance fabric with four-way stretch, quick-dry moisture control, and comfortable all-day wear.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/fade-polo-front-3.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/fade-polo-back-1.webp",
+    "source_url": "https://bankrollculture.com/catalog/fade-polo/"
+  },
+  {
+    "id": "8",
+    "title": "Glacier",
+    "description": "1/4-zip pro-collar jersey built with our FlexTech lightweight, moisture-wicking fabric. Featuring cool blues, diagonal motion, and a modern performance vibe, this design delivers a clean, dynamic look made for play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Glacier-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Glacier-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/glacier/"
+  },
+  {
+    "id": "9",
+    "title": "Rails & Diamonds",
+    "description": "1/4 Zip, Traditional Polo Style Jersey with a subtle geometric design. Built from Pro‑grade athletic fabric that combines four‑way stretch, fast‑dry moisture management, and durable, featherlight comfort.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Rails-Diamonds-F.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Rails-Diamonds-B.webp",
+    "source_url": "https://bankrollculture.com/catalog/rails-diamonds/"
+  },
+  {
+    "id": "10",
+    "title": "Carbon Fiber",
+    "description": "Sleek black quarter‑zip polo with a subtle diagonal carbon‑fiber style pattern. Lightweight moisture‑wicking performance fabric keeps you cool, dry, and comfortable.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/carbon-fiber-polo-front.png",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Carbon-Fiber-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/carbon-fiber/"
+  },
+  {
+    "id": "11",
+    "title": "Track Jacket",
+    "description": "Jacket",
+    "apparel_type": "Jacket",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Striped-Track-Jacket-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Striped-Track-Jacket-Front.webp",
+    "source_url": "https://bankrollculture.com/wp-content/uploads/2026/02/Striped-Track-Jacket-Back.webp"
+  },
+  {
+    "id": "12",
+    "title": "Wrap",
+    "description": "The Wrap Performance Tee features a clean, minimalist front with a refined gold geometric lattice wrapping the sides and back, adding depth and understated contrast. Finished in a breathable performance knit designed for comfort and focus.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/wrap-performance-tee.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/wrap-performance-tee-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/wrap-performance-tee/"
+  },
+  {
+    "id": "13",
+    "title": "Scattershot",
+    "description": "Chaotic, high-energy design with a patriotic edge. This 1/4-zip pro-collar Flex-Tech jersey is built with lightweight, breathable performance fabric that delivers multi-way stretch and moisture-wicking comfort for all-day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Scattershot-pro-collar-jersey-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Scattershot-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/scattershot/"
+  },
+  {
+    "id": "14",
+    "title": "Titanium",
+    "description": "1/4 Zip Pro-Collar Flex-tech performance jersey. The geometric patterns and gradients give it a modern, technical, and aggressive look (perfect for a pool tournament). Crafted from premium-performance fabric this jersey delivers multi‑directional stretch, exceptional breathability, and advanced moisture‑wicking control.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Titanium-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Titanium-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/titanium/"
+  },
+  {
+    "id": "15",
+    "title": "Stack",
+    "description": "Features a black base with a structured pattern of grey checker blocks. Finished with a pro-style (stand-up) collar, quarter-zip front, and moisture-wicking performance fabric for a professional fit and unrestricted movement.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Stack-Front-2.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Stack-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/stack/"
+  },
+  {
+    "id": "16",
+    "title": "Blueprint",
+    "description": "This sleek pro-collar quarter-zip jersey features a deep navy base overlaid with a sketched, warped grid pattern, giving it a unique hand-drafted technical look. Crafted from premium moisture-wicking performance fabric, The Blueprint offers a lightweight, breathable athletic fit designed to provide a full range of motion for every shot.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/blueprint-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/blueprint-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/blueprint/"
+  },
+  {
+    "id": "17",
+    "title": "Dynasty",
+    "description": "This Pro-Collar 1/4 Zip has an upscale diagonal plaid pattern in deep burgundy and slate grey. Constructed with our premium high-performance moisture-wicking Flex Tech material.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/dynasty-front-2.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Dynasty-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/dynasty/"
+  },
+  {
+    "id": "18",
+    "title": "Chalk Frost",
+    "description": "Our signature Chalk Dust pattern delivers an energetic diagonal burst across a sleek black base, adding motion and depth without overwhelming the design. This 1/4 zip jersey features a structured polo-style collar and is crafted from lightweight, moisture-wicking performance fabric with multi-way stretch for unrestricted movement and lasting comfort at the table. Available in Chalk Blue or Chalk Frost .",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Light-Chalk-Dust-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Light-Chalk-Dust-Back-Side-.webp",
+    "source_url": "https://bankrollculture.com/catalog/chalk-frost/"
+  },
+  {
+    "id": "19",
+    "title": "Vector",
+    "description": "Clean, modern with sharp contrast, this 1/2 Zip Mid-Layer has a slight athletic retro vibe with an angled chest cut. Built from a lightweight, breathable knit that balances warmth and ventilation, with stretch and moisture-wicking comfort designed for all-day wear.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Vector-Midlayer-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Vector-Midlayer-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/vector-mid-layer/"
+  },
+  {
+    "id": "20",
+    "title": "Talon",
+    "description": "Sporty, Hawkeye Themed Black & Yellow Design. 1/4 Zip Pro-Collar (Stand-Up) Jersey with multi‑way stretch, advanced moisture‑wicking, and a lightweight, breathable feel built for all‑day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/The-Talon-F.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/The-Talon-B.webp",
+    "source_url": "https://bankrollculture.com/catalog/talon/"
+  },
+  {
+    "id": "21",
+    "title": "Side Action",
+    "description": "1/2-zip performance mid-llayer with a one-side gradient pattern and a clean, solid finish throughout. Lightweight stretch fabric offers moisture control and comfort for long sessions.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Side-Action-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Side-Action-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/side-action/"
+  },
+  {
+    "id": "22",
+    "title": "Chalk Dust",
+    "description": "Our signature Chalk Dust pattern delivers an energetic diagonal burst across a sleek black base, adding motion and depth without overwhelming the design. This jersey features a structured polo-style collar and lightweight, moisture-wicking performance fabric with multi-way stretch for unrestricted movement and lasting comfort at the table.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Chalk-Dust-F.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Chalk-Dust-B.webp",
+    "source_url": "https://bankrollculture.com/catalog/chalk-dust/"
+  },
+  {
+    "id": "23",
+    "title": "Hawks 2",
+    "description": "Featuring a classic Iowa inspired design, the Hawks 1 is a 1/4 Zip Pro-Collar Flex-tech performance jersey. Engineered for performance with multi‑way stretch, advanced moisture‑wicking, and a lightweight, breathable feel built for all‑day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Hawks-1-F.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Hawks-1-B.webp",
+    "source_url": "https://bankrollculture.com/catalog/hawks-2/"
+  },
+  {
+    "id": "24",
+    "title": "Backspin",
+    "description": "Clean, minimal design with a technical and controlled look. 1/4 Zip Pro-Collar Flex-tech performance jersey. Engineered for performance with multi‑way stretch, advanced moisture‑wicking, and a lightweight, breathable feel built for all‑day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Back-Spin-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Back-Spin-Front.webp",
+    "source_url": "https://bankrollculture.com/catalog/backspin/"
+  },
+  {
+    "id": "25",
+    "title": "Horizon Blue",
+    "description": "This 1/4-zip jersey is built from lightweight performance fabric with four-way stretch and fast-dry moisture control. A simple patterned top panel finishes the look, with a solid body for a clean, modern feel in training, competition, or team settings.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Horizon-front-1.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Horizon-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/horizon-blue/"
+  },
+  {
+    "id": "26",
+    "title": "Dark Rise",
+    "description": "A clean black-to-charcoal fade built for a sharp, modern look. Breathable, quick-dry performance fabric tee with an athletic cut that stays comfortable from warm-up to final rack.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/86194.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/86192.webp",
+    "source_url": "https://bankrollculture.com/catalog/gradient-black/"
+  },
+  {
+    "id": "27",
+    "title": "Blue Rise",
+    "description": "A navy-to-electric blue gradient that feels fast without being loud. Breathable, quick-dry performance fabric tee with an athletic cut that stays comfortable from warm-up to final rack.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/86198.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/86196.webp",
+    "source_url": "https://bankrollculture.com/catalog/gradient-blue/"
+  },
+  {
+    "id": "28",
+    "title": "Axis",
+    "description": "A clean, two-tone midlayer with a sharp horizontal split and pro-collar 1/4-zip construction. Built with our FlexTech performance fabric for lightweight warmth, stretch mobility, and moisture control without bulk.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Axis-pro-collar-jersey-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Axis-pro-collar-jersey-Front-2.webp",
+    "source_url": "https://bankrollculture.com/catalog/axis/"
+  },
+  {
+    "id": "29",
+    "title": "Impact",
+    "description": "Bold graphic 1/2 Zip Mid-layer with layered blues, a high-contrast black panel, and pro-collar 1/4-zip construction. Built from our proprietary performance fabric for breathable warmth and unrestricted movement.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Impact-midlayer-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Impact-midlayer-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/impact/"
+  },
+  {
+    "id": "30",
+    "title": "Purple Rain",
+    "description": "A high-contrast jersey featuring bold violet drip graphics over a deep black base with pro-collar 1/4-zip construction. Built from our proprietary FlexTech performance fabric for lightweight breathability, moisture control, and unrestricted movement.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/purple-rain.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/purplerain-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/purple-rain/"
+  },
+  {
+    "id": "31",
+    "title": "Graphite Panel",
+    "description": "A structured long sleeve performance base layer with a textured black upper and clean gray lower body. Crafted in lightweight compression material for warmth, airflow, and a locked-in fit under competition wear.",
+    "apparel_type": "Base Layer",
+    "starting_price": "35",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/graphite-panel-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/graphite-panel-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/graphite-panel/"
+  },
+  {
+    "id": "32",
+    "title": "Stealth",
+    "description": "A minimalist long sleeve performance base layer in deep black with tonal geometric texture. Built from breathable compression fabric for smooth layering and unrestricted movement.",
+    "apparel_type": "Base Layer",
+    "starting_price": "35",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/stealth-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Stealth-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/stealth/"
+  },
+  {
+    "id": "33",
+    "title": "Split",
+    "description": "A long sleeve performance base layer designed for clean, high-contrast motion. The diagonal black-to-white fade creates sharp visual flow while our compression-fit fabric delivers lightweight warmth, stretch, and all-day comfort.",
+    "apparel_type": "Base Layer",
+    "starting_price": "35",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Split-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/split-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/split/"
+  },
+  {
+    "id": "34",
+    "title": "slash Base",
+    "description": "A performance base layer built for controlled intensity. Black and steel tones are cut with subtle orange streaks, all constructed in our flexible, moisture-managing long sleeve compression fabric.",
+    "apparel_type": "Base Layer",
+    "starting_price": "35",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/slash-front-1.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/slash-back-2.webp",
+    "source_url": "https://bankrollculture.com/catalog/slash/"
+  },
+  {
+    "id": "35",
+    "title": "Surge",
+    "description": "A performance base layer built for controlled intensity. Black and steel tones are cut with subtle orange streaks, all constructed in our flexible, moisture-managing long sleeve compression fabric.",
+    "apparel_type": "Base Layer",
+    "starting_price": "35",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Slash-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/slash-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/surge/"
+  },
+  {
+    "id": "36",
+    "title": "Smolder",
+    "description": "A classic three-button polo featuring a deep blue-to-grey gradient and a cracked surface design. Crafted from our proprietary material guaranteeing breathability and maximum mobility during competition.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/smolder-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/smolder-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/smolder/"
+  },
+  {
+    "id": "37",
+    "title": "Horizon Tee",
+    "description": "A modern athletic tee featuring a subtle gradient of micro-dots across the chest for a clean, technical look. Crafted from lightweight, moisture-wicking performance fabric, it’s breathable, quick-drying, and built to keep you comfortable in motion.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "25",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Horizon-Tee.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Horizon-Tee-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/horizon-tee/"
+  },
+  {
+    "id": "38",
+    "title": "Side Spin Tee",
+    "description": "A bold performance tee with a sweeping cascade of neon dots down the left side for a fast, side‑spin inspired look. Lightweight, moisture‑wicking fabric keeps it breathable, stretchy, and comfortable through every rack.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "25",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Side-SpinTee.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Side-SpinTee-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/side-spin-tee/"
+  },
+  {
+    "id": "39",
+    "title": "Slash Tee",
+    "description": "A modern performance tee featuring a black upper with subtle geometric texture that crashes into a light gray body, slashed by vivid orange and charcoal brush‑stroke graphics. Built from soft, moisture‑wicking fabric, it stays breathable, quick‑drying, and comfortable through long sessions.",
+    "apparel_type": "Performance Tee",
+    "starting_price": "25",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Crush-Tee.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Crush-Tee-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/slash-tee/"
+  },
+  {
+    "id": "40",
+    "title": "Edge Polo",
+    "description": "The Edge delivers a bold, angular design that brings energy and motion to a clean performance polo. Finished with pro-grade performance fabric that’s breathable, fast-drying, and flexible enough for all-day play. Also available in other collars and colors.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/01/Orange-Edge-Front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/01/Orange-Edge-Back.webp",
+    "source_url": "https://bankrollculture.com/catalog/edge-polo/"
+  },
+  {
+    "id": "41",
+    "title": "Frostline",
+    "description": "Lightweight and streamlined, this two-tone sky and navy 1/2 zip midlayer delivers breathable warmth, quick-dry comfort, and easy stretch for effortless performance on and off the table.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/blues-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/blues-ml-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/frostline/"
+  },
+  {
+    "id": "42",
+    "title": "Chalk Dust Pro",
+    "description": "1/4 Zip Black pro‑collar jersey featuring a bold blue chalk‑dust fade along the lower edge. Made from lightweight performance fabric with four-way stretch, quick-dry moisture control, and comfortable all-day wear.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/chalk-dust-pro-collar.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Chalk-Dust-B-1.webp",
+    "source_url": "https://bankrollculture.com/catalog/chalk-dust-pro/"
+  },
+  {
+    "id": "43",
+    "title": "Chalk Frost Pro",
+    "description": "Black quarter‑zip polo with a blue chalk‑dust fade bursting up from the hem. Finished with pro-grade performance fabric that’s breathable, fast-drying, and flexible enough for all-day play.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/Chalk-Frost-Jersey.png",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/Light-Chalk-Dust-Back-Side-.webp",
+    "source_url": "https://bankrollculture.com/catalog/chalk-frost-pro/"
+  },
+  {
+    "id": "44",
+    "title": "Chalk Mist Pro",
+    "description": "Soft, silky grey pro‑collar jersey with a cool blue chalk‑dust fade along the lower edge. Built with our FlexTech performance fabric for lightweight warmth, stretch mobility, and moisture control without bulk.",
+    "apparel_type": "Pro-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/02/chalk-mist-pro-collar.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/02/chalk-mist-pro-collar.webp",
+    "source_url": "https://bankrollculture.com/catalog/chalk-mist-pro/"
+  },
+  {
+    "id": "45",
+    "title": "Cipher",
+    "description": "A full-zip performance track jacket with a solid black body and bold geometric cipher pattern running through the sleeves. Constructed from smooth, breathable stretch fabric that holds its shape, moves comfortably, and delivers a clean, athletic fit built for long sessions and everyday wear.",
+    "apparel_type": "Jacket",
+    "starting_price": "65",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/cipher-jacket-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/cipher-jacket-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/cipher/"
+  },
+  {
+    "id": "46",
+    "title": "Varsity",
+    "description": "A full-zip performance track jacket with a black body, contrast sleeve striping, and matching accent details at the collar, cuffs, and hem. Constructed from durable stretch performance fabric that feels substantial, fits clean through the shoulders, and keeps its form over time.",
+    "apparel_type": "Jacket",
+    "starting_price": "65",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/varsity-jacket-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/varsity-jacket-back-1.webp",
+    "source_url": "https://bankrollculture.com/catalog/varsity/"
+  },
+  {
+    "id": "47",
+    "title": "Shatter",
+    "description": "A full-zip performance track jacket with a solid black base and bold blue burst graphic cutting across the right side of the body. Made from flexible, moisture-managing performance fabric that holds its shape and stays comfortable through long wear.",
+    "apparel_type": "Jacket",
+    "starting_price": "65",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/shatter-jacket-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/shatter-jacket-back-1.webp",
+    "source_url": "https://bankrollculture.com/catalog/shatter/"
+  },
+  {
+    "id": "48",
+    "title": "fade jacket",
+    "description": "A full-zip performance track jacket with a clean light-to-deep blue gradient body and matching ribbed cuffs and waistband. Built from smooth, breathable stretch fabric that maintains structure, resists sagging, and delivers a consistent athletic fit without bulk.",
+    "apparel_type": "Jacket",
+    "starting_price": "65",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/blue-fade-jacket-front.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/blue-fade-jacket-back-1.webp",
+    "source_url": "https://bankrollculture.com/catalog/fade-jacket/"
+  },
+  {
+    "id": "49",
+    "title": "slash jacket",
+    "description": "A full-zip performance track jacket with a black geometric upper, light grey lower body, and sharp orange accents cutting through the pattern. Constructed from breathable stretch performance fabric that keeps a clean silhouette, moves easily, and maintains its structure through repeated wear.",
+    "apparel_type": "Jacket",
+    "starting_price": "65",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-jacket.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-jacket-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/slash-jacket/"
+  },
+  {
+    "id": "50",
+    "title": "Slash Midlayer",
+    "description": "A streamlined 1/2 zip midlayer built for transitional conditions. The black geometric upper meets a light gray body with angled orange strikes, creating depth without distraction. Constructed from breathable stretch performance fabric, it layers cleanly over a base or tee while maintaining structure and mobility through long sets.",
+    "apparel_type": "Midlayer",
+    "starting_price": "55",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-midlayer.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-midlayer-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/slash-midlayer/"
+  },
+  {
+    "id": "51",
+    "title": "slash polo",
+    "description": "A polo-collar performance jersey defined by sharp contrast and disciplined lines. The structured collar adds a traditional edge to the black geometric upper and steel-gray base, cut through with bold orange slash accents. Lightweight stretch fabric with a relaxed athletic fit, built for players who prefer polish without sacrificing performance.",
+    "apparel_type": "Polo-Collar",
+    "starting_price": "40",
+    "image_front": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-polo.webp",
+    "image_back": "https://bankrollculture.com/wp-content/uploads/2026/03/slash-polo-back.webp",
+    "source_url": "https://bankrollculture.com/catalog/slash-polo/"
+  }
+]
