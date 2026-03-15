@@ -13,12 +13,16 @@ const App: React.FC = () => {
 
   // Dynamically report the height of this React app to the parent iframe (WordPress)
   useEffect(() => {
+    const observerTarget = document.querySelector('.app-container');
+    if (!observerTarget) return;
+
     const resizeObserver = new ResizeObserver(() => {
-      const height = document.documentElement.scrollHeight || document.body.scrollHeight;
-      // Send height + 50px buffer to prevent any edge-case scrollbars
-      window.parent.postMessage({ type: 'resize', height: height + 50 }, '*');
+      // Use bounding client rect for an exact measurement of the content, avoiding window loops
+      const height = observerTarget.getBoundingClientRect().height;
+      window.parent.postMessage({ type: 'resize', height: height }, '*');
     });
-    resizeObserver.observe(document.body);
+
+    resizeObserver.observe(observerTarget);
     return () => resizeObserver.disconnect();
   }, []);
 
