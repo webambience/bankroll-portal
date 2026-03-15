@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { InquiryProvider } from './context/InquiryContext';
 import { Navbar } from './components/Layout/Navbar';
 import { HowItWorks } from './components/Education/HowItWorks';
@@ -10,6 +10,17 @@ import './App.css';
 
 const App: React.FC = () => {
   const [isInquiryOpen, setIsInquiryOpen] = useState(false);
+
+  // Dynamically report the height of this React app to the parent iframe (WordPress)
+  useEffect(() => {
+    const resizeObserver = new ResizeObserver(() => {
+      const height = document.documentElement.scrollHeight || document.body.scrollHeight;
+      // Send height + 50px buffer to prevent any edge-case scrollbars
+      window.parent.postMessage({ type: 'resize', height: height + 50 }, '*');
+    });
+    resizeObserver.observe(document.body);
+    return () => resizeObserver.disconnect();
+  }, []);
 
   return (
     <InquiryProvider>
