@@ -1,7 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import type { CatalogItem } from '../../context/InquiryContext';
 import { ProductCard } from './ProductCard';
 import './CatalogGrid.css';
+
+const PAGE_SIZE = 8;
 
 interface CatalogGridProps {
   products: CatalogItem[];
@@ -9,10 +11,15 @@ interface CatalogGridProps {
 
 export const CatalogGrid: React.FC<CatalogGridProps> = ({ products }) => {
   const [activeFilter, setActiveFilter] = useState<string>('All');
+  const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
+
+  // Reset pagination whenever the filter changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [activeFilter]);
 
   const categories = useMemo(() => {
     const cats = new Set(products.map(p => p.apparel_type));
-    // Remove empty categories if any exist
     cats.delete('');
     return ['All', ...Array.from(cats)].sort();
   }, [products]);
@@ -21,6 +28,9 @@ export const CatalogGrid: React.FC<CatalogGridProps> = ({ products }) => {
     if (activeFilter === 'All') return products;
     return products.filter(p => p.apparel_type === activeFilter);
   }, [products, activeFilter]);
+
+  const visibleProducts = filteredProducts.slice(0, visibleCount);
+  const hasMore = filteredProducts.length > visibleCount;
 
   return (
     <section id="catalog" className="catalog-section">
@@ -42,11 +52,22 @@ export const CatalogGrid: React.FC<CatalogGridProps> = ({ products }) => {
       </div>
 
       <div className="products-grid">
-        {filteredProducts.map(product => (
+        {visibleProducts.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-      
+
+      {hasMore && (
+        <div className="show-more-container">
+          <button
+            className="btn btn-secondary show-more-btn"
+            onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
+          >
+            Show More ({filteredProducts.length - visibleCount} remaining)
+          </button>
+        </div>
+      )}
+
       {filteredProducts.length === 0 && (
         <div className="empty-state">
           <p>No products found for this category.</p>
@@ -55,3 +76,4 @@ export const CatalogGrid: React.FC<CatalogGridProps> = ({ products }) => {
     </section>
   );
 };
+

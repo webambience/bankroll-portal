@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { InquiryProvider } from './context/InquiryContext';
-import { Navbar } from './components/Layout/Navbar';
-import { HowItWorks } from './components/Education/HowItWorks';
 import { CatalogGrid } from './components/Catalog/CatalogGrid';
 import { InquiryDrawer } from './components/Inquiry/InquiryDrawer';
 import { FloatingCTA } from './components/Inquiry/FloatingCTA';
@@ -11,28 +9,22 @@ import './App.css';
 const App: React.FC = () => {
   const [isInquiryOpen, setIsInquiryOpen] = useState(false);
 
-  // Dynamically report the height of this React app to the parent iframe (WordPress)
+  // Tell the WordPress parent iframe how tall we actually are
   useEffect(() => {
-    const observerTarget = document.querySelector('.app-container');
-    if (!observerTarget) return;
-
-    const resizeObserver = new ResizeObserver(() => {
-      // Use bounding client rect for an exact measurement of the content, avoiding window loops
-      const height = observerTarget.getBoundingClientRect().height;
-      window.parent.postMessage({ type: 'resize', height: height }, '*');
+    const target = document.querySelector('.app-container');
+    if (!target) return;
+    const observer = new ResizeObserver(() => {
+      const height = target.getBoundingClientRect().height;
+      window.parent.postMessage({ type: 'resize', height }, '*');
     });
-
-    resizeObserver.observe(observerTarget);
-    return () => resizeObserver.disconnect();
+    observer.observe(target);
+    return () => observer.disconnect();
   }, []);
 
   return (
     <InquiryProvider>
       <div className="app-container">
-        <Navbar />
-        
         <main className="main-content">
-          <HowItWorks />
           <CatalogGrid products={catalogData as any} />
         </main>
 
@@ -42,16 +34,10 @@ const App: React.FC = () => {
           isOpen={isInquiryOpen} 
           onClose={() => setIsInquiryOpen(false)} 
         />
-        
-        <footer className="footer">
-          <div className="footer-content">
-            <p>BET ON YOURSELF.</p>
-            <p className="copyright">&copy; {new Date().getFullYear()} Bank Roll Culture - Premium Billiard Apparel</p>
-          </div>
-        </footer>
       </div>
     </InquiryProvider>
   );
 };
 
 export default App;
+

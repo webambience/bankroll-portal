@@ -27,7 +27,7 @@
   margin-bottom: var(--spacing-2xl);
   padding: 0 var(--spacing-md);
   position: sticky;
-  top: 80px; /* Below navbar */
+  top: 0; /* No navbar — stick to top of iframe */
   z-index: 10;
   background-color: var(--color-bg-base);
   padding-block: var(--spacing-md);
@@ -75,4 +75,15 @@
   background-color: var(--color-bg-surface);
   border-radius: var(--radius-lg);
   margin-top: var(--spacing-xl);
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-2xl);
+  padding-bottom: var(--spacing-2xl);
+}
+
+.show-more-btn {
+  min-width: 220px;
 }
