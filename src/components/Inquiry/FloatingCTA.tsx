@@ -10,10 +10,13 @@ interface FloatingCTAProps {
 export const FloatingCTA: React.FC<FloatingCTAProps> = ({ onOpenInquiry }) => {
   const { savedItems } = useInquiry();
 
+  // Detect if we're embedded inside a WordPress iframe
+  const isInIframe = typeof window !== 'undefined' && window !== window.parent;
+
   if (savedItems.length === 0) return null;
 
   return (
-    <div className="floating-cta-container">
+    <div className={`floating-cta-container${isInIframe ? ' iframe-mode' : ''}`}>
       <button className="btn btn-primary floating-cta-btn" onClick={onOpenInquiry}>
         <div className="cta-icon-wrapper">
           <FiFileText size={20} />

@@ -6,6 +6,30 @@
   animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* When embedded in WordPress iframe: pin to TOP as a full-width bar */
+.floating-cta-container.iframe-mode {
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-radius: 0;
+  animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-cta-container.iframe-mode .floating-cta-btn {
+  width: 100%;
+  justify-content: center;
+  border-radius: 0;
+  padding: 0.85rem var(--spacing-lg);
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
